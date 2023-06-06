@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Claim 15 Billion Dollars</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>OperaGX</h1>
+    <div class="search-box">
+      <button id="search-button">Install</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+  
+  
+<style>
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #3377ff;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+#search-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3377ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+</style>
+
+<script>
+// Event listener for search button
+const searchButton = document.getElementById("search-button");
+searchButton.addEventListener("click", redirectToRickroll);
+
+// Function to redirect to the Rickroll YouTube video
+function redirectToRickroll() {
+  window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+}
+
+</script>
